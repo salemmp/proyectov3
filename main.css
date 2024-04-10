@@ -16,6 +16,7 @@ nav{
 
 @media (max-width: 700px){
     .contenedor_tabla{
+        margin-top:150px;
         width: 100%;
         overflow:hidden;
     }
