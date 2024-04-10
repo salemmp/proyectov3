@@ -1,0 +1,21 @@
+
+table{
+    
+    z-index: -1;
+}
+nav{
+    margin-bottom: 50px;
+}
+.contenedor_tabla{
+   
+    width:80%;
+    margin:auto;
+   
+}
+
+
+@media (max-width: 700px){
+    .contenedor_tabla{
+        width: 100%;
+    }
+}
