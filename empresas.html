@@ -649,7 +649,11 @@
 <script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>
 
 <script>
-    new DataTable('#example');
+     $("#example").DataTable({
+        language:{
+            url:"https://cdn.datatables.net/plug-ins/1.10.25/i18n/Spanish.json"
+        },
+    })
 </script>
 <script src="app.js"></script>
 </body>
